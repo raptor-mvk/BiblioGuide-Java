@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/src/ru/mvk/biblioGuide/core/BiblioGuide.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/ru/mvk/biblioGuide/dao/BookCaseDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/ru/mvk/biblioGuide/dao/BookDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/ru/mvk/biblioGuide/model/Author.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/ru/mvk/biblioGuide/model/Book.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/ru/mvk/biblioGuide/model/BookCase.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/ru/mvk/biblioGuide/service/AuthorViewService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/ru/mvk/biblioGuide/service/BookCaseViewService.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
