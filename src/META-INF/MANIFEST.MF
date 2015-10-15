@@ -2,4 +2,4 @@ Manifest-Version: 1.0
 Main-Class: ru.mvk.biblioGuide.core.BiblioGuide
 Sealed: true
 Implementation-Title: BiblioGuide
-Implementation-Version: 1.0.0.1
+Implementation-Version: 1.0.0.2

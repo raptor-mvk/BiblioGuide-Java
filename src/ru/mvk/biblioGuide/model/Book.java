@@ -38,11 +38,11 @@ public final class Book implements Serializable {
   @Column(name = "shelf", nullable = false)
   private byte shelf;
 
-  @NotNull
+  @Nullable
   @Formula("(select author.surname from author where author.rowid=author)")
   private String authorName;
 
-  @NotNull
+  @Nullable
   @Formula("(select bookcase.name from bookcase where bookcase.rowid=bookcase)")
   private String bookCaseName;
 
@@ -51,8 +51,6 @@ public final class Book implements Serializable {
     lowerName = "";
     authorName = "";
     bookCaseName = "";
-    author = 1;
-    bookCase = 1;
   }
 
   public int getId() {
@@ -94,7 +92,7 @@ public final class Book implements Serializable {
 
   @NotNull
   public String getAuthorName() {
-    return authorName;
+    return authorName == null ? "" : authorName;
   }
 
   public void setAuthorName(@NotNull String authorName) {
@@ -103,7 +101,7 @@ public final class Book implements Serializable {
 
   @NotNull
   public String getBookCaseName() {
-    return bookCaseName;
+    return bookCaseName == null ? "" : bookCaseName;
   }
 
   public void setBookCaseName(@NotNull String bookCaseName) {
